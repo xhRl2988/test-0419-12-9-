@@ -1,0 +1,155 @@
+*{margin: 0; padding: 0; list-style-type: none;}
+a{text-decoration: none; display: block;}
+
+body{
+    width: 1000px;
+    height: 650px;
+    color: #333;
+    background-color: #fff;
+}
+
+.top{
+    width: 200px;
+    height: 650px;
+    float: left;
+}
+.logo1{
+    width: 200px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.logo1 a{
+    width: 200px;
+    height: 100px;
+}
+
+.logo2 a{
+    width: 200px;
+    height: 100px;
+}
+
+.logo1 img{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo2 img{
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.menu1{
+    width: 200px;
+    height: 550px;
+    background-color: yellow;
+    position: relative;
+}
+
+.manu{
+    width: 200px;
+    height: 550px;
+    background-color: beige;
+}
+
+.main>li>a{
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #ff0000;
+    text-align: center;
+}
+
+.sub>li>a{
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #ff6767;
+    text-align: center;
+}
+
+.main>li:hover>a{
+    background-color:  aqua;
+    color: #fff;
+}
+
+.sub>li:hover>a{
+    background-color:  rgb(60, 146, 146);
+    color: #fff;
+}
+
+.sub{
+    width: 200px;
+    height: 210px;
+    line-height: 210px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    display: none;
+
+}
+
+.body_right{
+    width: 800px;
+    height: 650px;
+    float: left;
+}
+
+.imgslide{
+    width: 800px;
+    height: 350px;
+    background-color: violet;
+}
+.contents{
+    width: 800px;
+    height: 200px;
+}
+.nogal{
+    width: 300px;
+    height: 200px;
+    float: left;
+    background-color: aqua;
+}
+
+.banner{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: antiquewhite;
+}
+.sc{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: rgb(155, 110, 53);
+}
+
+.bottom{
+    width: 800px;
+    height: 100px;
+}
+.logo2{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.bottom_right{
+    width: 600px;
+    float: left;
+}
+
+.menu2{
+    width: 600px;
+    height: 50px;
+    background-color: turquoise;
+}
+
+.copy{
+    width: 600px;
+    height: 50px;
+    background-color: blue;
+}
